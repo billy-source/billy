@@ -7,6 +7,96 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 25px;
+  margin-bottom: 10px;
+  width: 20em;
+  background-color: #f1fed6;
+}
+
+.form-group:focus-within {
+  background-color: #ffffcc;
+}
+
+.form-group input {
+  padding: 5px;
+}
+
+fieldset:first-of-type {
+  width: max-content;
+  display: flex;
+  padding: 30px;
+  gap: 5px;
+}
+fieldset {
+  border-radius: 7px;
+  border: 1px solid #e8edd4;
+}
+.parent-legend {
+  background-color: #c2e0a2;
+  color: white;
+  font-weight: bold;
+  padding: 3px;
+  border-radius: 0 0 6px 6px;
+}
+
+.child-legend {
+  color: #c8e4b1;
+  font-weight: bold;
+}
+/* Commented out because custom checkbox styling was not rendering well on all browsers */
+/* input[type="checkbox"] {
+  border: 2px solid black;
+  width: 25px;
+  height: 20px;
+  appearance: none;
+  text-align: bottom;
+}
+input[type="checkbox"]:checked {
+  position: relative;
+}
+input[type="checkbox"]:checked:before {
+  content: "";
+  display: block;
+  width: 23px;
+  height: 18px;
+  position: absolute;
+  background: none #acacb8;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  opacity: 0.5;
+} */
+
+#language-selection label {
+  text-align: center;
+}
+
+button[type="submit"] {
+  background-color: #7a9643;
+  border: 1px solid #627638;
+  border-radius: 5px;
+  color: white;
+  padding: 3px 10px;
+}
+
+#submission {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+}
+</style>
     <form action="GET">
       <fieldset>
         <legend class="parent-legend">General Info</legend>
