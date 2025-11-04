@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Company Data Collection Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="GET">
+      <fieldset>
+        <legend class="parent-legend">General Info</legend>
+
+        <!-- Personal Info -->
+
+        <fieldset>
+          <legend class="child-legend">Personal Info</legend>
+          <div id="left-form">
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input id="name" type="text" required />
+            </div>
+            <div class="form-group">
+              <label for="last-name">Last Name:</label>
+              <input id="last-name" type="text" required />
+            </div>
+            <div class="form-group">
+              <label for="gender">Gender:</label>
+              <div>
+                <input
+                  type="radio"
+                  name="gender"
+                  id="male"
+                  value="Male"
+                  checked
+                />
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female" value="Female" />
+                <label for="female">Female</label>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="birth-date">Birth date:</label>
+              <input id="birth-date" type="date" required />
+            </div>
+            <div class="form-group">
+              <label for="address">Address:</label>
+              <input id="address" type="text" />
+            </div>
+            <div class="form-group">
+              <label for="address">Email:</label>
+              <input id="address" type="email" required />
+            </div>
+          </div>
+        </fieldset>
+
+        <!-- Business Info -->
+
+        <fieldset>
+          <legend class="child-legend">Business Info</legend>
+          <div id="right-form">
+            <div class="form-group">
+              <label for="name">Company Name:</label>
+              <input id="company" type="text" />
+            </div>
+            <div class="form-group">
+              <label for="name">Address:</label>
+              <input id="address" type="text" />
+            </div>
+            <div class="form-group">
+              <label for="name">Phone/Fax:</label>
+              <input id="phone-fax" type="tel" />
+            </div>
+            <div class="form-group">
+              <label for="name">Contact Name:</label>
+              <input id="contact-name" type="text" />
+            </div>
+            <div class="form-group">
+              <label for="name">Contact Email:</label>
+              <input id="contact-email" type="email" />
+            </div>
+            <div class="form-group">
+              <label for="name">Website:</label>
+              <input id="website" type="url" />
+            </div>
+          </div>
+        </fieldset>
+      </fieldset>
+
+      <!-- Language Selection -->
+      <div id="submission">
+        <div id="langauge-selection">
+          <label for="language">Languages:</label>
+          <label for="english">English</label><input type="checkbox" />
+          <label for="swahili">Swahili</label><input type="checkbox" />
+          <label for="french">French</label><input type="checkbox" />
+          <label for="spanish">Spanish</label><input type="checkbox" />
+        </div>
+        <div>
+          <button type="submit">Next</button>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Company Data Collection Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="GET">
+      <fieldset>
+        <legend class="parent-legend">General Info</legend>
+
+        <!-- Personal Info -->
+
+        <fieldset>
+          <legend class="child-legend">Personal Info</legend>
+          <div id="left-form">
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input id="name" type="text" required />
+            </div>
+            <div class="form-group">
+              <label for="last-name">Last Name:</label>
+              <input id="last-name" type="text" required />
+            </div>
+            <div class="form-group">
+              <label for="gender">Gender:</label>
+              <div>
+                <input
+                  type="radio"
+                  name="gender"
+                  id="male"
+                  value="Male"
+                  checked
+                />
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female" value="Female" />
+                <label for="female">Female</label>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="birth-date">Birth date:</label>
+              <input id="birth-date" type="date" required />
+            </div>
+            <div class="form-group">
+              <label for="address">Address:</label>
+              <input id="address" type="text" />
+            </div>
+            <div class="form-group">
+              <label for="address">Email:</label>
+              <input id="address" type="email" required />
+            </div>
+          </div>
+        </fieldset>
+
+        <!-- Business Info -->
+
+        <fieldset>
+          <legend class="child-legend">Business Info</legend>
+          <div id="right-form">
+            <div class="form-group">
+              <label for="name">Company Name:</label>
+              <input id="company" type="text" />
+            </div>
+            <div class="form-group">
+              <label for="name">Address:</label>
+              <input id="address" type="text" />
+            </div>
+            <div class="form-group">
+              <label for="name">Phone/Fax:</label>
+              <input id="phone-fax" type="tel" />
+            </div>
+            <div class="form-group">
+              <label for="name">Contact Name:</label>
+              <input id="contact-name" type="text" />
+            </div>
+            <div class="form-group">
+              <label for="name">Contact Email:</label>
+              <input id="contact-email" type="email" />
+            </div>
+            <div class="form-group">
+              <label for="name">Website:</label>
+              <input id="website" type="url" />
+            </div>
+          </div>
+        </fieldset>
+      </fieldset>
+
+      <!-- Language Selection -->
+      <div id="submission">
+        <div id="langauge-selection">
+          <label for="language">Languages:</label>
+          <label for="english">English</label><input type="checkbox" />
+          <label for="swahili">Swahili</label><input type="checkbox" />
+          <label for="french">French</label><input type="checkbox" />
+          <label for="spanish">Spanish</label><input type="checkbox" />
+        </div>
+        <div>
+          <button type="submit">Next</button>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
